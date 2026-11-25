@@ -1,0 +1,116 @@
+export const CATEGORIES = [
+  'Clean Bulk Groceries',
+  'Mess/Dining',
+  'Transport',
+  'Academic & Misc',
+];
+
+export const CATEGORY_META = {
+  'Clean Bulk Groceries': {
+    color: '#10B981',
+    bg: 'bg-emerald-500/15',
+    text: 'text-emerald-400',
+    border: 'border-emerald-500/30',
+    dot: 'bg-emerald-400',
+    shortLabel: 'Bulk Groceries',
+  },
+  'Mess/Dining': {
+    color: '#06B6D4',
+    bg: 'bg-cyan-500/15',
+    text: 'text-cyan-400',
+    border: 'border-cyan-500/30',
+    dot: 'bg-cyan-400',
+    shortLabel: 'Mess & Dining',
+  },
+  Transport: {
+    color: '#F59E0B',
+    bg: 'bg-amber-500/15',
+    text: 'text-amber-400',
+    border: 'border-amber-500/30',
+    dot: 'bg-amber-400',
+    shortLabel: 'Transport',
+  },
+  'Academic & Misc': {
+    color: '#8B5CF6',
+    bg: 'bg-violet-500/15',
+    text: 'text-violet-400',
+    border: 'border-violet-500/30',
+    dot: 'bg-violet-400',
+    shortLabel: 'Academic & Misc',
+  },
+};
+
+export const CLEAN_BULK_PRESETS = [
+  {
+    id: 'toned-milk-1l',
+    item: 'Toned Milk (1L)',
+    amount: 56,
+    calories: 600,
+    protein: 30,
+    category: 'Clean Bulk Groceries',
+    tag: 'Dairy Base',
+  },
+  {
+    id: 'sattu-sugar',
+    item: 'Sattu (100g) + Sugar',
+    amount: 22,
+    calories: 410,
+    protein: 20,
+    category: 'Clean Bulk Groceries',
+    tag: 'Desi Shake',
+  },
+  {
+    id: 'choc-pb-bread',
+    item: 'Chocolate Peanut Butter + 4 Bread Slices',
+    amount: 38,
+    calories: 480,
+    protein: 16,
+    category: 'Clean Bulk Groceries',
+    tag: 'Calorie Dense',
+  },
+  {
+    id: 'boiled-eggs-4',
+    item: '4 Boiled Eggs',
+    amount: 32,
+    calories: 310,
+    protein: 25,
+    category: 'Clean Bulk Groceries',
+    tag: 'Bioavailable',
+  },
+  {
+    id: 'paneer-200g',
+    item: 'Paneer (200g)',
+    amount: 90,
+    calories: 530,
+    protein: 36,
+    category: 'Clean Bulk Groceries',
+    tag: 'High Protein',
+  },
+  {
+    id: 'bananas-dates',
+    item: 'Bananas (4) + Dates (50g)',
+    amount: 35,
+    calories: 560,
+    protein: 6,
+    category: 'Clean Bulk Groceries',
+    tag: 'Pre-Workout',
+  },
+  {
+    id: 'pumpkin-seeds-30g',
+    item: 'Pumpkin Seeds (30g)',
+    amount: 25,
+    calories: 170,
+    protein: 9,
+    category: 'Clean Bulk Groceries',
+    tag: 'Micronutrients',
+  },
+];
+
+export const DEFAULT_SETTINGS = {
+  monthlyBudget: 8000,
+  calorieGoal: 3300,
+  proteinGoal: 140,
+  studentName: 'Ayush Kumar Ojha',
+  department: 'CSD First Year',
+  rollNo: 'BTCD26O1039',
+};

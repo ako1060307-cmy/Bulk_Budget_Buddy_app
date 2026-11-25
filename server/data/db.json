@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "usr-1795619765329-c763aa6f",
+      "name": "Ayush Ojha",
+      "email": "test@gmail.com",
+      "passwordHash": "eb75184d9bb4ef2a615854790206e23e:33d6c778300bc22a6a466ca167ed4d3692ac1c4e84a17f955eb393d0edd994b233658f9667816fdd9fd2834f1ea0c091fa382231e8c4c916fbe910ee212c2737",
+      "settings": {
+        "monthlyBudget": 8000,
+        "calorieGoal": 3300,
+        "proteinGoal": 140,
+        "studentName": "Ayush Ojha",
+        "department": "CSD First Year",
+        "rollNo": "BTCD26O1039"
+      },
+      "entries": []
+    }
+  ],
+  "sessions": {
+    "eea916020eadcedf10a820ed190dd133990325f42a0067ec": "usr-1795619765329-c763aa6f"
+  }
+}
