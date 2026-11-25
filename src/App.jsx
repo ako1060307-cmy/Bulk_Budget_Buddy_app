@@ -241,6 +241,14 @@ export default function App() {
               user={session.user}
             />
           )}
+
+          <footer className="mt-10 pt-5 border-t border-[#1F2937]/70 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] text-slate-500">
+            <span>Bulk Budget Buddy • Clean Bulk &amp; ₹ Expense Tracker</span>
+            <span className="text-center sm:text-right">
+              Built by <span className="text-slate-300 font-medium">Ayush Kumar Ojha</span> (Roll No. BTCD26O1039) &amp;{' '}
+              <span className="text-slate-300 font-medium">Abhishek Pandey</span> (Roll No. BTCD26O1008) • CSD First Year
+            </span>
+          </footer>
         </main>
       </div>
     </div>

@@ -331,9 +331,13 @@ export default function AuthGateway({ onAuthenticated }) {
           )}
         </div>
 
-        <p className="text-center text-[11px] text-slate-500 mt-5">
-          Built by <span className="text-slate-300 font-medium">Ayush Kumar Ojha</span> • CSD First Year • Roll No. BTCD26O1039
-        </p>
+        <div className="text-center text-[11px] text-slate-500 mt-5 space-y-1">
+          <p>
+            Built by <span className="text-slate-300 font-medium">Ayush Kumar Ojha</span> (Roll No. BTCD26O1039) &amp;{' '}
+            <span className="text-slate-300 font-medium">Abhishek Pandey</span> (Roll No. BTCD26O1008)
+          </p>
+          <p>CSD First Year</p>
+        </div>
       </div>
     </div>
   );
